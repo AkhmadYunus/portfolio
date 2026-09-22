@@ -3,6 +3,28 @@ body {
     font-family: Arial, sans-serif;
 }
 
+nav {
+    background-color: #0078d4;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+section {
+    background-color: #ffffff;
+    width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
 .hero {
     background-color:white;
     width: 700%;
@@ -16,6 +38,9 @@ h1 {
     color: #0078d4;
 }
 
+h2 {
+    color: #333333;
+}
 button {
     background-color: #0078d4;
     color: white;
