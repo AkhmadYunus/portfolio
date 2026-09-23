@@ -47,6 +47,7 @@ section {
     justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     align-items: center;
+    display: flex;
 }
 
 h1 {
@@ -57,10 +58,12 @@ h2 {
     color: #0078d4;
 }
 
-button {
+.btn {
+    display: inline-block;
     background-color: #0078d4;
     color: white;
     border: none;
+    text-decoration: none;
     padding: 12px 24px;
     cursor: pointer;
     border-radius: 8px;
@@ -112,10 +115,28 @@ button {
 
 .project-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     color: #666;
     text-align: center;
     padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .hero {
+        padding: 20px;
+    }
+    .profile-image {
+        width: 180px;
+    }
+    h1 {
+        font-size: 32px;
+    }
 }
