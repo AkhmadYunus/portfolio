@@ -23,6 +23,27 @@ nav a {
     font-weight: bold;
 }
 
+#darkModeBtn {
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.dark {
+    background-color: #222;
+    color: #ffffff;
+}
+
+.dark section {
+    background-color: #333;
+}
+
+.dark h1, .dark h2, .dark p {
+    color: #ffffff;
+}
+
 section {
     background-color: #ffffff;
     max-width: 700px;
