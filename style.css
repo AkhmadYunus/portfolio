@@ -24,7 +24,8 @@ nav a {
 
 section {
     background-color: #ffffff;
-    width: 700px;
+    max-width: 700px;
+    width: 90%;
     margin: 30px auto;
     padding: 30px;
     border-radius: 15px;
@@ -63,20 +64,15 @@ button {
     padding: 12px 24px;
     cursor: pointer;
     border-radius: 8px;
-}
-
-img {
-    max-width: 180%;
-    height: 180px;
-    border-radius: 50px;
-    object-fit: cover;
+    width: auto;
 }
 
 .profile-image {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center top;
     border: 4px solid #0078d4;
+    margin-bottom: 20px;
 }
