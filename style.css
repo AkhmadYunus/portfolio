@@ -67,18 +67,19 @@ section {
     text-align: center;
 }
 
-.hero {
+/*.hero {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-}  
+}*/  
 
 .hero-content {
     text-align: left;
 }
-/*.hero {
+
+.hero {
     background-color:white;
     max-width: 500px;
     width: 90%;
@@ -93,7 +94,9 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     align-items: center;
     display: flex;
-}*/
+    gap: 40px;
+    flex-wrap: wrap;
+}
 
 h1 {
     color: #0078d4;
