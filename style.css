@@ -44,6 +44,19 @@ nav a {
     color: #ffffff;
 }
 
+.dark .project-card {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.dark .project-card h3 {
+    color: #ffffff;
+}
+
+.dark .project-card p {
+    color: #ddd;
+}
+
 section {
     background-color: #ffffff;
     max-width: 700px;
@@ -55,6 +68,17 @@ section {
 }
 
 .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}  
+
+.hero-content {
+    text-align: left;
+}
+/*.hero {
     background-color:white;
     max-width: 500px;
     width: 90%;
@@ -69,7 +93,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     align-items: center;
     display: flex;
-}
+}*/
 
 h1 {
     color: #0078d4;
@@ -153,6 +177,10 @@ footer {
     }
     .hero {
         padding: 20px;
+        flex-direction: column;
+    }
+    .hero-content {
+        text-align: center;
     }
     .profile-image {
         width: 180px;
