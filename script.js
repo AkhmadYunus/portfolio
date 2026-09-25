@@ -1,4 +1,3 @@
-console.log("Script jalan!");
 const darkModeBtn = document.getElementById('darkModeBtn');
     /* CEK SAAT HALAMAN DIBUKA */
     if (localStorage.getItem("theme") === "dark") {
@@ -17,3 +16,24 @@ darkModeBtn.addEventListener('click', () => {
         darkModeBtn.textContent = '🌙';
     }
 });
+
+const texts = ["Microsoft 365", "Networking", "IT Support"];
+let index = 0;
+setInterval(() => {
+    document.getElementById("typing").textContent = texts[index];
+    index ++;
+    if (index >= texts.length) {
+        index = 0;
+    }
+}, 2000);
+
+const typingElement = document.getElementById("typing");
+const jobs = ["Microsoft 365", "Networking", "IT Support"];
+let currentIndex = 0;
+setInterval(() => {
+    currentIndex++;
+    if (currentIndex >= jobs.length) {
+        currentIndex = 0;
+    }
+    typingElement.textContent = jobs[currentIndex];
+}, 2500);
