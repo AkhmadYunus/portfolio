@@ -1,3 +1,4 @@
+console.log("Script jalan!");
 const darkModeBtn = document.getElementById('darkModeBtn');
     /* CEK SAAT HALAMAN DIBUKA */
     if (localStorage.getItem("theme") === "dark") {
