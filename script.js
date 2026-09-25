@@ -17,7 +17,7 @@ darkModeBtn.addEventListener('click', () => {
     }
 });
 
-const texts = ["Microsoft 365", "Networking", "IT Support"];
+const texts = ["Microsoft 365 Administrator", "Networking Engineer", "Office 365 Specialist", "IT Support Technician", "Help Desk Support", "System Administrator"];
 let index = 0;
 setInterval(() => {
     document.getElementById("typing").textContent = texts[index];

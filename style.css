@@ -57,6 +57,14 @@ nav a {
     color: #ddd;
 }
 
+#typing {
+    font-size: 20px;
+    color: #0078d4;
+    font-weight: bold;
+    margin-top: 10px;
+    min-height: 30px; /* Adjust this value based on your font size */
+}
+
 section {
     background-color: #ffffff;
     max-width: 700px;
