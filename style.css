@@ -77,28 +77,16 @@ section {
 }
 
 .hero-content {
-    max-width: 500px;
+    max-width: 400px;
     text-align: left;
 }
 
-/*.hero {
-    background-color:white;
-    max-width: 500px;
-    width: 90%;
-    margin: 50px auto;
-    padding: 40px;
+.hero-image img {
+    width: 280px;
+    height: auto;
     border-radius: 15px;
-    text-align: center;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    align-items: center;
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-}*/
+    border: 4px solid #0078d4;
+}
 
 h1 {
     color: #0078d4;
@@ -106,6 +94,10 @@ h1 {
 
 h2 {
     color: #0078d4;
+}
+
+.action-buttons {
+    margin-top: 20px;
 }
 
 .btn {
