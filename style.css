@@ -211,24 +211,41 @@ footer {
 
 
 @media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
     nav a {
-        display: block;
-        margin: 10px 0;
+        margin: 5px;
+        font-size: 14px;
     }
     .hero {
         padding: 20px;
         flex-direction: column;
+        text-align: center;
     }
     .hero-content {
         text-align: center;
+        max-width: 100%;
     }
-    .profile-image {
+    .hero-image img {
         width: 180px;
     }
     h1 {
-        font-size: 32px;
+        font-size: 40px;
+    }
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
     .project-grid {
         grid-template-columns: 1fr;
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
     }
 }
