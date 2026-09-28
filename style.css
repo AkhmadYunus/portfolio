@@ -27,6 +27,11 @@ nav {
     top: 0;
 }
 
+.nav-link.active {
+    collor: #ffd700;
+    border bottom: 3px solid #ffd700;
+}
+
 nav a {
     color: white;
     text-decoration: none;

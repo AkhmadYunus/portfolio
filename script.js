@@ -4,6 +4,24 @@ menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('show');
 });
 
+const section = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-link');
+Window.addEventListener('scroll', () => {
+    let currentSection = '';
+    section.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (window.scrollY >= sectionTop - sectionHeight / 3) {
+            currentSection = section.getAttribute('id');
+        }
+    });
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#'+currentSection`) {
+            link.classList.add('active');
+        }
+    });
+
 const darkModeBtn = document.getElementById('darkModeBtn');
     /* CEK SAAT HALAMAN DIBUKA */
     if (localStorage.getItem("theme") === "dark") {
