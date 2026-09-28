@@ -1,9 +1,11 @@
+/* Hamburger Menu */
 const menuToggle = document.getElementById('menuToggle');
-const navLinks = document.getElementById('navLinks');
+const mobileNavLinks = document.getElementById('navLinks');
 menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
+    mobileNavLinks.classList.toggle('show');
 });
 
+/* Active Link Highlighting */
 const section = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-link');
 Window.addEventListener('scroll', () => {
