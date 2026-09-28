@@ -249,6 +249,7 @@ footer {
         padding: 20px;
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
     .hero-content {
         text-align: center;
@@ -264,6 +265,7 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        width: 100%;
     }
     .project-grid {
         grid-template-columns: 1fr;

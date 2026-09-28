@@ -1,3 +1,9 @@
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+});
+
 const darkModeBtn = document.getElementById('darkModeBtn');
     /* CEK SAAT HALAMAN DIBUKA */
     if (localStorage.getItem("theme") === "dark") {
