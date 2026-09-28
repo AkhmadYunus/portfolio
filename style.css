@@ -8,6 +8,17 @@ body {
     margin: 0;
 }
 
+.menu-toggle {
+    display: none;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
 nav {
     background-color: #0078d4;
     padding: 15px;
@@ -211,6 +222,19 @@ footer {
 
 
 @media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        background: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
     nav {
         display: flex;
         flex-wrap: wrap;
