@@ -28,8 +28,8 @@ nav {
 }
 
 .nav-link.active {
-    collor: #ffd700;
-    border bottom: 3px solid #ffd700;
+    color: #ffd700;
+    border-bottom: 3px solid #ffd700;
 }
 
 nav a {
@@ -113,7 +113,7 @@ section {
     flex-wrap: wrap;
 }
 
-.skills-badge .span {
+.skills-badge span {
     background-color: #0078d4;
     color: white;
     padding: 8px 12px;
@@ -223,6 +223,18 @@ footer {
     color: #666;
     text-align: center;
     padding: 20px;
+}
+
+.entra {
+    width: 85%;
+}
+
+.support {
+    width: 90%;
+}
+
+.asset {
+    width: 85%;
 }
 
 
